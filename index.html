@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Latihan Web</title>
+	<link rel="stylesheet" type="text/css"
+	media="all" href="style.css">
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="download.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="profil.html">Profil</a></li>
+				<li><a href="kontak.html">Kontak Saya</a></li>
+			</ul>
+		</div>
+		<div id="runningtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+		Welcome to my website
+		</marquee>
+		</div>
+		<div id="sidebar">
+		<div class="widged">
+		<img src ="Z.jpg" class="gambariklan">
+		</div>
+		<div class="widged">
+		<h1 class="judulwidged">Alert</h1>
+		<ul>
+			<li> <a href="#" class="btn btn-large" onclick="return alert('Hallo');">Tampilkan Alert</a> </li>
+			<li> <a class="btn btn-large" href="#" onclick="return ubahText();">Ubah Teks</a></li>
+			<li> <a class="btn btn-large" href="#" onclick="return tambahArtikel();">Tambah Artikel</a></li>
+		</ul>
+		</div>
+		</div>
+		<div class="isi">
+				
+				<div class="isiposting">
+					<h1 class="title">Judul Artikel</h1>
+					<img src="120b.svg" class="gambardepan">
+					<p>Di tahun ini saya akan merangkum artikel apa saja sih yang paling populer di mata otolovers</p>
+				</div><!-- endof .post -->
+
+				<div class="isiposting">
+					<h1 class="title">Judul Artikel 2</h1>
+					<p>Kategory otomotif berisikan informasi, tips, modifikasi tentang motor.</p>
+				</div><!-- endof .post -->
+			</div>
+			<div id="footer"> &copy 2018, by dewaji </div> 
+	</div>
+</body>
+</html>

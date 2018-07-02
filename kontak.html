@@ -1,0 +1,69 @@
+ <html>
+<head>
+	<title>Latihan Web</title>
+	<link rel="stylesheet" type="text/css"
+	media="all" href="style.css">
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="download.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="profil.html">Profil</a></li>
+				<li><a href="kontak.html">Kontak Saya</a></li>
+			</ul>
+		</div>
+		<div id="runningtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+		Welcome to my website
+		</marquee>
+		</div>
+		<div id="kontak">
+			<div class="kontak">
+			<h2> Kontak Kami </h2><br>
+				<form>
+				<table class="tabelkontak">
+					<tr>
+						<td class="kolom1">Nama Lengkap</td>
+						<td class="kolom2"> <input type=text name=txtnama size="50"></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td> <input type=text name=txtemail size="50"></td>
+					</tr>
+					<tr>
+						<td>No. Hp</td>
+						<td> <input type=text name=txtnohp size="50"></td>
+					</tr>
+					<tr>
+						<td>Kota</td>
+						<td> <input type=text name=txtkota size="50"></td>
+					</tr>
+					<tr>
+						<td>alamat</td>
+						<td> <input type=text name=txtalamat size="50"></td>
+					</tr>
+					<tr>
+						<td>Pesan</td>
+						<td> <textarea cols="80" rows="10"> </textarea></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><input type=submit name=Kirim value=&nbsp;&nbsp;Kirim&nbsp;&nbsp;>&nbsp;&nbsp;<input type=reset name=Reset value=&nbsp;&nbsp;Reset>
+						</tr>
+		
+				</table>
+				</form>
+				</div>
+				</div>
+			<div id="footer"> &copy 2018, by dewaji </div> 
+	</div>
+</body>
+</html>
